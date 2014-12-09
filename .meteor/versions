@@ -41,6 +41,7 @@ reload@1.1.1
 retry@1.0.1
 routepolicy@1.0.2
 session@1.0.4
+sgi:famous-angular@0.5.0
 spacebars-compiler@1.0.3
 spacebars@1.0.3
 templating@1.0.9
