@@ -9,7 +9,7 @@ callback-hook@1.0.1
 check@1.0.2
 ctl-helper@1.0.4
 ctl@1.0.2
-ddp@1.0.11
+ddp@1.0.12
 deps@1.0.5
 ejson@1.0.4
 fastclick@1.0.1
@@ -30,7 +30,7 @@ minifiers@1.1.2
 minimongo@1.0.5
 mjn:famous@0.3.1_2
 mobile-status-bar@1.0.1
-mongo@1.0.8
+mongo@1.0.9
 mquandalle:bower@0.1.11
 observe-sequence@1.0.3
 ordered-dict@1.0.1
@@ -41,7 +41,7 @@ reload@1.1.1
 retry@1.0.1
 routepolicy@1.0.2
 session@1.0.4
-sgi:famous-angular@0.5.0
+sgi:famous-angular@0.5.5
 spacebars-compiler@1.0.3
 spacebars@1.0.3
 templating@1.0.9

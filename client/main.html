@@ -4,11 +4,20 @@
 </head>
 
 <body>
-<fa-app ng-controller="mainController" id="app">
-    <fa-grid-layout fa-options="myGridLayoutOptions">
-        <fa-surface fa-background-color=" '[[item.color]]' " ng-repeat="item in items">
-            [[item.name]]
-        </fa-surface>
-    </fa-grid-layout>
+
+<fa-app fa-perspective="1000" ng-controller="mainController" id="app">
+    <fa-modifier fa-transform="[[ctransform]]" fa-align="[[calign]]" fa-origin="[0.5, 0]">
+        <fa-image-surface fa-options="myCameraOptions"></fa-image-surface>
+    </fa-modifier>
+    <fa-modifier fa-transform="[[ssmTransform]]" fa-align="[[ssmAlign]]" fa-origin="[[ssmAlign]]">
+        <fa-container-surface fa-perspective="1000" fa-options="sscOptions">
+            <fa-view fa-options="ssOptions"></fa-view>
+        </fa-container-surface>
+    </fa-modifier>
+    <!--<fa-grid-layout fa-options="myGridLayoutOptions">-->
+        <!--<fa-surface fa-background-color=" '[[item.color]]' " ng-repeat="item in items">-->
+            <!--[[item.name]]-->
+        <!--</fa-surface>-->
+    <!--</fa-grid-layout>-->
 </fa-app>
 </body>
